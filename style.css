@@ -1,0 +1,185 @@
+/* Estilos del header, navegador principal */
+
+.caja1{
+    width: 100vw;
+    height: 50px;
+    background-color: #fbdc61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+
+.menu li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+    color: #2f485f;
+}
+
+
+nav li:hover{
+    background-color: #697e9091;
+}
+
+
+
+/* Estilos del contenido de Home */
+
+main{
+    width: 100vw;
+    height: 100vw;
+    background-color: #697e90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tituloM{
+    font-size: 30px;
+    text-align: center;
+    color: #2f485f;
+    text-shadow: 8px 2px 5px #fbdc61;
+}
+
+
+.imgMinion{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* Estilos del footer */
+
+.footer{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #f9d158;
+    align-items: flex-end;
+    align-content: space-between;
+    width: 100vw;
+    height: 180px;
+    font-size: 15px;
+    color: #2f485f;
+    text-align: center;
+}
+
+
+.texto{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.perfil{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.redeS{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: center;
+    text-decoration: none;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 30px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+
+.redeS a{
+    margin: 0 7px;
+}
+
+
+.redeS a:hover{
+    color: #697e90;
+}
+
+
+/* Estilos de los textos de la Biografia */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.minions2{
+    width: 50vw;
+}
+
+.texto1 .cajatextos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+.texto1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tituloB{
+    text-align: center;
+    font-size: 30px;
+    color: #2f485f;
+}
+
+
+.cajatextos{
+    width: 300px;
+}
+
+
+.subtitulos{
+    font-size: 20px;
+    color: #2f485f;
+}
+
+
+.pf1 {
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+
+.pf2{
+    margin: 1px 0;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+.pf3{
+    margin-top: 40px;
+    margin-right: 5px;
+}
